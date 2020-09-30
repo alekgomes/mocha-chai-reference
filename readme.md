@@ -32,21 +32,29 @@ npm run test -- --bail --reporter=progress
 
 ## Lista de opções para o comando mocha
 --bail = Falha no primeiro test
+
 --reporter = set reporter que vai ser utilizado
+
 --reporters = get lista de reporters disponíveis
+
 --watch = 
 
 ## Lista de hooks
 before() = roda uma vez antes do bloco
-after() = roda uma vez depois do bloco
-beforeEach() = roda antes de todos bloco
-afterEach() = roda depois de cada bloco
 
+after() = roda uma vez depois do bloco
+
+beforeEach() = roda antes de todos bloco
+
+afterEach() = roda depois de cada bloco
 
 ## Conceitos
 Todo it retorna uma exception qndo falha
+
 context.only() - roda somente context específico
+
 context.skip() - skipa um context específico
+
 hooks = código executado a partir de uma ação
 
 ### Smoke test
